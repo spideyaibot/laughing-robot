@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+
+html {
+   scroll-behavior: smooth;
+   position: relative;
+}
+
+/*html:after {
+   content: '';
+   display: block;
+   position: absolute;
+   z-index: 2;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   pointer-events: none;
+   background-image: url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F26a4f5a3-8dcd-4eed-afcb-72f99c6aa653.image.png?v=1639136324336'), url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F7f115bbb-5f47-4e19-98b7-dbf4a359a00c.image.png?v=1639136365819'), url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F5a01e66e-33a3-4aad-96f5-87d8336d3fa4.image.png?v=1639136393414');
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+ 100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}*/
+  </style>
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KMRDKW09F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3KMRDKW09F');
+</script>
+    <meta name="keywords" content="spidey sense, spidey bot discord, discord bots, free chatbot, discord chatbot, chatbot discord, dalle, dalle 1, dalle 2, dalle mini, gpt, gpt 3, gpt 4, chatgpt discord bot" />
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="og:site_name" content="Spidey">
+    <meta property="og:image" content="https://i.imgur.com/u8ygYl5.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="twitter:card" content="https://i.imgur.com/u8ygYl5.png">
+    <meta name="description" content="Advance Discord Chatbot">
+    <meta name="theme-color" content="#FFC0CB">
+    <link rel="icon" type="favicon" sizes="300x250" href="https://i.imgur.com/u8ygYl5.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/dev.css">
+    <title>Spidey</title>
+</head>
+<body onload="myFunction()" style="background-color: var(--background);">
+<div id="loader"></div>
+<div id="top"class="top">
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./img/menu.png" width="25px" height="20px" style="max-width: none !important;">
+    </button>
+    <img src="../img/av.png " style = "user-select:none;pointer-events: none"width="60" height="60">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#support">Support</a>
+            </li>
+          <li class="nav-item">
+                <a class="nav-link" href="#vote">Vote</a>
+          </li>
+        </ul>
+      <a href="/gallery" class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">Gallery</a>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://vishvaas.gitbook.io/spidey/commands">Commands</a>
+                <a class="dropdown-item" href="https://vishvaas.gitbook.io/spidey/commands/chabot" target="_blank">Tutorials</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/tos">Terms of Service</a>
+                <a class="dropdown-item" href="/privacy-policy">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+        </div>
+    </div>
+  </nav>
+    <div class="heading">
+    <div class="front">
+    <img src="../img/swing.png" style = "position: absolute;top: 0px;right: 0px;pointer-events: none;user-select:none;">
+    </div>
+    <h1 class="display-5 title">Spidey</h1>
+    <p class="subtitle">An Advance Discord Ai Bot, Try Now!</p>
+    <a class="btn btn-primary btn-lg" href="https://vishvaas.gitbook.io/spidey" target="_blank" role="button">Get started</a>
+    <a class="btn btn-secondary btn-lg" href="/invite" target="_blank" role="button">Invite</a>
+    </br>
+      </br>
+      </br>
+      </br>
+  </div>
+</div>
+<div class="bgb1">
+  <div class = "box">
+    <div id="about" class="about">
+    <h3 class="display-5 title">About</h3>
+    <p class="subtitle">
+      Spidey is a Discord bot designed to provide users with a chatbot and image generation functionality. The chatbot feature allows users to have conversations with the bot, which is programmed to respond in a natural and engaging way. This feature is especially useful for server owners who want to provide their members with a more interactive and engaging experience.
+  </br>
+The image generation feature of the bot allows users to generate various types of images, including memes, quotes, and images with custom text. Users can specify the type of image they want to generate and provide the necessary input, and the bot will generate the image accordingly. This feature is particularly useful for those who want to create custom images quickly and easily.
+  </br>
+In addition to these core features, Spidey also includes a variety of other functionalities that make it a valuable addition to any Discord server. For example, the bot can be used to provide reminders and notifications, manage server roles and permissions, and even play games with users.
+  </br>
+Overall, Spidey is a versatile and powerful Discord bot that can help server owners provide their members with a more engaging and interactive experience. Whether you're looking for a chatbot or an image generation tool, "Spidey" has you covered.</p>
+  </div>
+  <div id="features" class="features">
+    <div class="title">Features of Bot</div>
+    <div class="subtitle">We provide you the best features in Bot!</div>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Feature #1</h5>
+            <p class="card-text">Spidey is known for its quick and responsive nature. It is designed to respond to user commands and messages promptly, without any delay or lag. This ensures that users can chat with the bot seamlessly and enjoy a smooth and engaging chatting experience on their Discord server.</p>
+        </div>
+    </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Feature #2</h5>
+                <p class="card-text">Spidey's image generation command is integrated with our own api, enabling users to generate custom images by providing natural language input. This AI-powered feature offers quick and easy image creation, ranging from abstract art to landscapes, and surreal imagery.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Feature #3</h5>
+                <p class="card-text">Spidey is free to use and based solely on slash commands, providing users with an intuitive and seamless experience. This means users can access all of the bot's features and functionalities without any costs or subscriptions.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="statistics">
+    <div class="cards">
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+              <div class="counter">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">1013+</p>
+                </div>
+                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
+            </div>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+              <div class="counter">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">158549+</p>
+                </div>
+                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
+            </div>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+              <div class="counter">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">26707+</p>
+                </div>
+                <p style="font-weight: bold !important;font-size: 20px !important;">channels</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="vote-support">
+<div class="vote-top">
+  <div id="vote" class="vote">
+    <h1 class="display-5 title">Vote</h1>
+    <p class="subtitle">Available on Top.gg & DBL</p>
+    <a class="btn btn-primary btn-lg" href="https://top.gg/bot/1085161346674479204" target="_blank" role="button"><img src="./img/top-gg.png" height="35px" width="35px"> Top.gg</a>
+    <a class="btn btn-secondary btn-lg" href="https://discordbotlist.com/bots/spidey-5785/upvote" target="_blank" role="button"><img src="./img/dbl.png" height="35px" width="35px" style="border-radius: 50%;"> DBL</a>
+  </div>
+  </div>
+  <div class="vote-top2">
+  <div id="support" class="vote">
+    <h1 class="display-5 title">Support</h1>
+    <p class="subtitle">Available on Discord & Mail</p>
+    <a class="btn btn-primary btn-lg" href="https://discord.gg/vrJA4K68N6" target="_blank" role="button"><img src="./img/discord.png" height="35px" width="35px"> Discord</a>
+    <a class="btn btn-secondary btn-lg" href="mailto:spideyaibot@gmail.com" target="_blank" role="button"><img src="./img/mail.png" height="35px" width="35px"> Mail</a>
+  </div>
+</div>
+</div>
+  <div class="donate-team">
+<div class="vote-top3">
+  <div id="donate" class="vote">
+    <h1 class="display-5 title">Donate</h1>
+    <p class="subtitle">Available through UPI & Card</p>
+    <a class="btn btn-primary btn-lg" href="https://spidey.vishvaasboi.repl.co/img/qr.png" target="_blank" role="button"><img src="./img/upi.png" height="35px" width="35px"> Upi</a>
+    <a class="btn btn-secondary btn-lg" href="https://donate.stripe.com/00g7uE7K12rg4aQ5kk" target="_blank" role="button"><img src="./img/card.png" height="35px" width="35px"> Card</a>
+  </div>
+</div>
+    <div class="vote-top4">
+      <div id="team" class="vote">
+        <h1 class="display-5 title">Team</h1>
+        <p class="subtitle">Details of team members</p>
+        <a class="btn btn-primary btn-lg" href="https://discord.com/users/523154428576923679" target="_blank" role="button">Developer</a>
+
+        <a class="btn btn-secondary btn-lg" href="https://discord.com/users/808572936151105586" target="_blank" role="button">Manager</a>
+      </div>
+    </div>
+  </div>
+
+<div class="links"> 
+    <div class="footer">
+        <div class="bot-footer">
+            <img src="../img/av.png" width="100"><br />
+            Copyright © Spidey - 2023        </div><br/>
+        <div class="nouridio">Start your journey with <a href="/">Spidey</div>
+    </div>
+    </div>
+  <button onclick="topFunction()" id="myBtn"><img src="./img/navigation.gif" height="40px" width="40px"></button>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js">
+</script>
+<script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+         //loader
+      var preloader = document.getElementById("loader");
+
+      function myFunction(){
+        preloader.style.display = 'none';
+      };
+//go to top button
+  let mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+</script>
+</body>
+</html>
