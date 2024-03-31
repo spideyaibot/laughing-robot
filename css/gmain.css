@@ -1,7 +1,6 @@
 body {
    user-select:none;
     font-family: 'Poppins', sans-serif !important;
-    background: radial-gradient(circle, rgba(160,0,255,0.5788690476190477) 0%, rgba(254,0,0,0.5480567226890756) 100%); !important;
     color: white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
