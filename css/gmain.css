@@ -20,7 +20,7 @@ body {
     color: white !important;
 }
 .top{
-    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%); !important;
+    background: radial-gradient(circle, rgba(160,0,255,0.5788690476190477) 0%, rgba(254,0,0,0.5480567226890756) 100%); !important;
 }
 #loader{
   position: fixed;
